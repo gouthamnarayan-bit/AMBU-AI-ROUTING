@@ -99,7 +99,7 @@ export async function searchNearbyHospitalsTomTom(
       hospitalCapacityPercent: 60 + ((index * 7) % 30),
       availabilityStatus: 'AVAILABLE',
       lastUpdated: new Date().toISOString(),
-      source: 'TOMTOM_PLACES',
+      source: 'SIMULATED',
       simulationMode: false,
     };
   });
