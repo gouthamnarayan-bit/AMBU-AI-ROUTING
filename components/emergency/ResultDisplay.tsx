@@ -813,7 +813,7 @@ export const ResultDisplay: React.FC<ResultDisplayProps> = ({
 
           {showSteps && (
             <div className="divide-y divide-slate-800/60 pt-2 text-xs">
-              {recommendedRoute.steps.map((st, i) => (
+              {recommendedRoute?.steps.map((st, i) => (
                 <div key={i} className="py-2.5 flex items-start gap-3">
                   <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-mono font-bold text-emerald-400 shrink-0 text-[10px]">
                     {i + 1}
